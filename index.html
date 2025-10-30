@@ -9,29 +9,31 @@
 </head>
 <body>
     <div>
-        <nav class="container">
-            <a class="nav" href="index.html"> HOME </a>
-            <a class="nav" href="brands.html"> BRANDS </a>
-            <a class="nav" href="guitarists.html"> FAMOUS GUITARISTS </a>
-            <a class="nav" href="top-5.html"> MY TOP 5 </a>
+        <nav class="flex flex-row justify-evenly flex-wrap text-[30px] bg-black text-[#818181] max-w-full">
+            <a class="hover:text-white hover:scale-105 transition-transform" href="index.html"> HOME </a>
+            <a class="hover:text-white hover:scale-105 transition-transform" href="brands.html"> BRANDS </a>
+            <a class="hover:text-white hover:scale-105 transition-transform" href="guitarists.html"> FAMOUS GUITARISTS </a>
+            <a class="hover:text-white hover:scale-105 transition-transform" href="top-5.html"> MY TOP 5 </a>
         </nav>
     </div>
     <div class="banner">
         <img src="https://copilot.microsoft.com/th/id/BCO.f2023f51-5a90-49ee-9195-81f41d886c5c.png" alt="picture of guitar">
         <h1 class="header-text">Welcome to my website about guitars</h1>
     </div>    
-    <div class="links">
-        <div>
-            <img class="pic" src="https://i.pinimg.com/736x/b0/18/4c/b0184cce67ee19ca169671f0a580abb3.jpg" alt="picture of guitar">
-            <a href="brands" class="caption">BRANDS</a>
+
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 p-6">
+        <div class="flex flex-col items-center rounded-lg p-4 hover:scale-102 transition-transform">
+            <a href="brands.html"><img class="w-150 h-150 aspect-[3/4] object-cover rounded-lg mx-auto mb-4" src="https://i.pinimg.com/736x/b0/18/4c/b0184cce67ee19ca169671f0a580abb3.jpg" alt="picture of guitar">
+            <p class="text-center font-semibold text-lg text-gray-800">BRANDS</p></a>
         </div>
-        <div>
-            <img class="pic" src="https://storage.googleapis.com/pod_public/1300/269782.jpg" alt="picture of famous guitarist">
-            <a href="guitarists" class="caption">FAMOUS GUITARISTS</a>
+        <div class="flex flex-col items-center rounded-lg p-4 hover:scale-105 transition-transform">
+            <a href="guitarists.html"><img class="w-150 h-150 aspect-[3/4] object-cover rounded-lg mx-auto mb-4" src="https://storage.googleapis.com/pod_public/1300/269782.jpg" alt="picture of famous guitarist"></a>
+            <p class="text-center font-semibold text-lg text-gray-800">FAMOUS GUITARISTS</p>
         </div>
-        <div>
-            <img class="pic" src="https://echotone.com.au/cdn/shop/files/Z6IIIConsignmentsTue17thDec-2442.jpg?v=1734415003&width=2048" alt="picture of guitar">
-            <a href="top-5" class="caption">MY TOP 5</a>
+        <div class="flex flex-col items-center rounded-lg p-4 hover:scale-105 transition-transform">
+            <a href="top-5.html"><img class="w-150 h-150 aspect-[3/4] object-cover rounded-lg mx-auto mb-4" src="https://echotone.com.au/cdn/shop/files/Z6IIIConsignmentsTue17thDec-2442.jpg?v=1734415003&width=2048" alt="picture of guitar"></a>
+            <p class="text-center font-semibold text-lg text-gray-800">MY TOP 5</p>
         </div>
     </div>
 
